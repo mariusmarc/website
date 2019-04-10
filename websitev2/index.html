@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Marius Marc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="js/menuscript.js"></script>
+</head>
+
+<body>
+    <header id="main-header">
+        <a href="#pages--main-page" style="height:48px;width:133.3px" title="Go to main page">
+            <img src="assets/logowhite.svg" class="headerlogos">
+        </a>
+
+
+
+        <div id="menucontainer" class="menucontainer">
+            <div id="menubutton">
+                <img src="assets/icons8-menu-32.png" alt="Index" class="headerlogos" id="buttonimg"
+                    onclick="changeDisplay()">
+            </div>
+            <div class="menu" id="menu">
+                <a href="#releases" onclick="changeDisplay()">Releases</a>
+                <a href="#upcoming" onclick="changeDisplay()">Upcoming</a>
+                <a href="#about" onclick="changeDisplay()">About</a>
+                <a href="#links" onclick="changeDisplay()">Links</a>
+                <a href="#contact" onclick="changeDisplay()">Contact</a>
+            </div>
+
+        </div>
+
+
+    </header>
+    <article id="pages--main-page">
+        <div>
+            <img src="assets/logowhite.svg" id="logo">
+        </div>
+        <br>
+        <p>Music is the key</p>
+    </article>
+    <header class="headline" id="releases">
+        <h1>Releases</h1>
+    </header>
+    <br>
+    <p style="font-weight:100;text-align:center;font-size:16px;">Click for links and previews</p>
+    <br>
+    <article id="pages--releases">
+        
+            <div class="downwardflex boxelement" id="together" onclick="expandItem('together')">
+                <img class="cover" src="assets/together.jpg">
+                <div class="expanded">
+                    <iframe src="https://open.spotify.com/embed/track/0bVaAp9HXcQ7M1AFXdO1tv" width="250" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                <a href="https://distrokid.com/hyperfollow/mariusmarc/together" class="button--cover">Links</a>
+            </div>
+    </article>
+    <header class="headline" id="upcoming">
+        <h1>Upcoming</h1>
+    </header>
+    <br>
+    <article id="pages--upcoming">
+        <br>
+        <br>
+        <p>No upcoming releases.</p>
+    </article>
+    <header class="headline" id="about">
+        <h1>About</h1>
+    </header>
+    <br>
+    <article id="pages--about">
+        <section style="margin-bottom:2.5em;">
+            <img id="profile" src="assets/profile.jpeg">
+        </section>
+        <section id="biography">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique provident asperiores atque inventore
+                nostrum vitae, esse rem sit repudiandae deserunt perferendis hic. Tempore aspernatur sint debitis et
+                voluptatem placeat ab.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, officia itaque vero laborum ex quas
+                molestiae magnam placeat quam eum adipisci! Corrupti quibusdam eveniet placeat ducimus itaque sunt animi
+                quam.
+            </p>
+        </section>
+    </article>
+    <header class="headline" id="links">
+        <h1>Links</h1>
+    </header>
+    <article id="pages--links">
+        <section class="flexbox" id="linkbuttons">
+            <a href="https://www.instagram.com/mariusmarcmusic/" class="followbuttons button--instagram">
+                <img src="assets/2000px-Instagram_logo_2016.svg.png" class="iconresize">
+            </a>
+            <a href="https://open.spotify.com/artist/1ouP3pY12I01czT4IQmVUZ?si=g7C7Dt3gSdy_JYtE3KPjVQ"
+                class="followbuttons button--spotify">
+                <img src="assets/Spotify_Logo_RGB_Green.png" class="iconresize">
+            </a>
+            <a href="https://itunes.apple.com/us/artist/marius-marc/1458018216"
+                class="followbuttons button--applemusic">
+                <img src="assets/Apple_Music_logo.svg.png" class="iconresize">
+            </a>
+            <a href="https://www.amazon.com/s?k=Marius+Marc&i=digital-music&search-type=ss&ref=ntt_srch_drd_B07Q7RVGF1"
+                class="followbuttons button--amazon">
+                <img src="assets/available_at_amazon_en_horizontal_rev.png" class="iconresize">
+            </a>
+            <a href="https://www.deezer.com/de/artist/62621872" class="followbuttons button--deezer">
+                <img src="assets/DZ_Logo_CMYK.png" class="iconresize">
+            </a>
+            <a href="https://play.google.com/store/music/artist/Marius_Marc?id=A3o7dtfxawtjmi5hd45s4wrhuke"
+                class="followbuttons button--playmusic">
+                <img src="assets/google-play-music.svg" class="iconresize">
+            </a>
+        </section>
+    </article>
+    <header class="headline" >
+        <h1>Contact</h1>
+    </header>
+    <article id="pages--contact">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptatibus eaque quod eligendi ducimus
+            labore corporis, laudantium sed saepe excepturi minus tempora rem facilis officiis qui, tempore animi magni
+            ea?</p>
+        <br>
+        <br>
+        <br>
+        <a href="mailto:mariusmarcmusic@gmail.com" class="buttonlink">
+            <img src="assets/icons8-secured-letter-96.png" id="mailimage">
+            <p>Contact E-Mail</p>
+        </a>
+    </article>
+</body>
+
+</html>
